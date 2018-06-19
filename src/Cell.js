@@ -4,7 +4,7 @@ class Cell extends Component {
   render() {
     return (
       <td className="Cell">
-        { this.props.val||""}
+        {this.props.val || ""}
       </td>
     );
   }
